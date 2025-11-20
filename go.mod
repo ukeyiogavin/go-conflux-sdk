@@ -1,7 +1,6 @@
-module github.com/Conflux-Chain/go-conflux-sdk
+module github.com/axengine/go-conflux-sdk
 
-go 1.23.10
-
+go 1.24.10
 
 require (
 	github.com/mcuadros/go-defaults v1.2.0
@@ -71,6 +70,7 @@ require (
 )
 
 require (
+	github.com/Conflux-Chain/go-conflux-sdk v1.5.11
 	github.com/ethereum/go-ethereum v1.15.11
 	github.com/goccy/go-json v0.10.5
 	github.com/kilic/bls12-381 v0.1.0

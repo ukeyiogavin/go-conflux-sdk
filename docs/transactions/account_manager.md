@@ -18,4 +18,4 @@ Feature
 - Unlock/Lock an account.
 - Sign a transaction.
 
-See API introduction from [API Doc](https://pkg.go.dev/github.com/Conflux-Chain/go-conflux-sdk#AccountManager)
+See API introduction from [API Doc](https://pkg.go.dev/github.com/axengine/go-conflux-sdk#AccountManager)

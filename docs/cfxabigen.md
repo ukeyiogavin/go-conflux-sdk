@@ -13,14 +13,14 @@ This page introduces the concept of server-side native Dapps: Go language bindin
 
 install from remote
 ```
-$ go install github.com/Conflux-Chain/go-conflux-sdk/cmd/cfxabigen
+$ go install github.com/axengine/go-conflux-sdk/cmd/cfxabigen
 ```
 
 or install from local
 
 1. download the code
 ```
-$ git clone https://github.com/Conflux-Chain/go-conflux-sdk.git
+$ git clone https://github.com/axengine/go-conflux-sdk.git
 ```
 
 2. install
@@ -86,9 +86,9 @@ import (
 
 	"abigen/bind"
 
-	sdk "github.com/Conflux-Chain/go-conflux-sdk"
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
+	sdk "github.com/axengine/go-conflux-sdk"
+	"github.com/axengine/go-conflux-sdk/types"
+	"github.com/axengine/go-conflux-sdk/types/cfxaddress"
 	"github.com/sirupsen/logrus"
 )
 
@@ -139,9 +139,9 @@ import (
 
 	"abigen/bind"
 
-	sdk "github.com/Conflux-Chain/go-conflux-sdk"
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
+	sdk "github.com/axengine/go-conflux-sdk"
+	"github.com/axengine/go-conflux-sdk/types"
+	"github.com/axengine/go-conflux-sdk/types/cfxaddress"
 	"github.com/sirupsen/logrus"
 )
 
@@ -186,9 +186,9 @@ import (
 
 	"abigen/bind"
 
-	sdk "github.com/Conflux-Chain/go-conflux-sdk"
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
+	sdk "github.com/axengine/go-conflux-sdk"
+	"github.com/axengine/go-conflux-sdk/types"
+	"github.com/axengine/go-conflux-sdk/types/cfxaddress"
 	"github.com/sirupsen/logrus"
 )
 
@@ -255,10 +255,10 @@ import (
 
 	"abigen/bind"
 
-	sdk "github.com/Conflux-Chain/go-conflux-sdk"
-	"github.com/Conflux-Chain/go-conflux-sdk/middleware"
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
+	sdk "github.com/axengine/go-conflux-sdk"
+	"github.com/axengine/go-conflux-sdk/middleware"
+	"github.com/axengine/go-conflux-sdk/types"
+	"github.com/axengine/go-conflux-sdk/types/cfxaddress"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/sirupsen/logrus"
 )
@@ -320,10 +320,10 @@ import (
 
 	"abigen/bind"
 
-	sdk "github.com/Conflux-Chain/go-conflux-sdk"
-	"github.com/Conflux-Chain/go-conflux-sdk/middleware"
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
+	sdk "github.com/axengine/go-conflux-sdk"
+	"github.com/axengine/go-conflux-sdk/middleware"
+	"github.com/axengine/go-conflux-sdk/types"
+	"github.com/axengine/go-conflux-sdk/types/cfxaddress"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/sirupsen/logrus"
 )
