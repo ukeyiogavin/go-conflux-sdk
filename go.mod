@@ -1,8 +1,7 @@
 module github.com/Conflux-Chain/go-conflux-sdk
 
-go 1.23.0
+go 1.23.10
 
-toolchain go1.23.10
 
 require (
 	github.com/mcuadros/go-defaults v1.2.0
