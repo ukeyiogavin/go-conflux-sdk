@@ -1,8 +1,8 @@
 package contract
 
 import (
-	postypes "github.com/Conflux-Chain/go-conflux-sdk/types/pos"
 	"github.com/ethereum/go-ethereum/common"
+	postypes "github.com/ukeyiogavin/go-conflux-sdk/types/pos"
 )
 
 func ConvertCommittee(ledger *postypes.LedgerInfoWithSignatures) (LedgerInfoLibEpochState, bool) {

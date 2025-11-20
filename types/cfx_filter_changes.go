@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
 )
 
 type CfxFilterChanges struct {

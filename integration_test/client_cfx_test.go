@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	sdk "github.com/Conflux-Chain/go-conflux-sdk"
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
 	"github.com/openweb3/go-sdk-common/rpctest"
+	sdk "github.com/ukeyiogavin/go-conflux-sdk"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
 )
 
 func genCfxTestConfig() rpctest.RpcTestConfig {

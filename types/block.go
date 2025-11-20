@@ -9,9 +9,9 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cmptutil"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cmptutil"
 )
 
 // BlockHeader represents a block header in Conflux.

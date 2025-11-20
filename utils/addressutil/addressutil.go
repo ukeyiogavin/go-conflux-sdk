@@ -1,10 +1,10 @@
 package addressutil
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/pkg/errors"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
 )
 
 // EtherAddressToCfxAddress converts an ethereum address to a cfx address, it will change top 4 bit of eth address to 0b0001

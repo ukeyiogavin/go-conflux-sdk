@@ -23,13 +23,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/bind"
-	"github.com/Conflux-Chain/go-conflux-sdk/internal/flags"
-	sdkUtils "github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"github.com/ethereum/go-ethereum/cmd/utils"
 	"github.com/ethereum/go-ethereum/common/compiler"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/ukeyiogavin/go-conflux-sdk/bind"
+	"github.com/ukeyiogavin/go-conflux-sdk/internal/flags"
+	sdkUtils "github.com/ukeyiogavin/go-conflux-sdk/utils"
 	"github.com/urfave/cli/v2"
 )
 

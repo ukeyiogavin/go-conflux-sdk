@@ -3,12 +3,12 @@ package primitives
 import (
 	"io"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/pkg/errors"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
 )
 
 func MustRLPEncodeReceipt(receipt *types.TransactionReceipt) []byte {

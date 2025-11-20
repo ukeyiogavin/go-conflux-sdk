@@ -7,8 +7,9 @@ package types
 import (
 	"errors"
 	"fmt"
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"math/big"
+
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"

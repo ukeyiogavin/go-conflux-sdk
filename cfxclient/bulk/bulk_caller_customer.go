@@ -1,8 +1,8 @@
 package bulk
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
 )
 
 type BulkCustomCaller struct {

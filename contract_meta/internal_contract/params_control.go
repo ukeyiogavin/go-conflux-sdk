@@ -4,10 +4,10 @@ import (
 	"math/big"
 	"sync"
 
-	sdk "github.com/Conflux-Chain/go-conflux-sdk"
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
 	"github.com/pkg/errors"
+	sdk "github.com/ukeyiogavin/go-conflux-sdk"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
 )
 
 // ParamsControl contract

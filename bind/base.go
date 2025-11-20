@@ -3,14 +3,14 @@ package bind
 import (
 	"context"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/event"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

@@ -5,13 +5,14 @@
 package types
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"io"
 	"math/big"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types/enums"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
+
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/enums"
 
 	"github.com/pkg/errors"
 )

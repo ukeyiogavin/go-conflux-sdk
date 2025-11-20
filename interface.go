@@ -9,12 +9,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
-	postypes "github.com/Conflux-Chain/go-conflux-sdk/types/pos"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	rpc "github.com/openweb3/go-rpc-provider"
 	"github.com/openweb3/go-rpc-provider/interfaces"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
+	postypes "github.com/ukeyiogavin/go-conflux-sdk/types/pos"
 )
 
 // HTTPRequester is interface for emitting a http requester

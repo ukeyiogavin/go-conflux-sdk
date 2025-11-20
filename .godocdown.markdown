@@ -1,7 +1,7 @@
 ---
 id: go_sdk
 title: Golang SDK
-custom_edit_url: https://github.com/axengine/go-conflux-sdk/edit/master/api.md
+custom_edit_url: https://github.com/ukeyiogavin/go-conflux-sdk/edit/master/api.md
 keywords:
   - conflux
   - go
@@ -17,11 +17,11 @@ The go-conflux-sdk module is a collection of packages which contain specific fun
 ## Installation
 You can get Conflux Golang API directly or use go module as below
 ```
-go get github.com/axengine/go-conflux-sdk
+go get github.com/ukeyiogavin/go-conflux-sdk
 ```
 You can also add the Conflux Golang API into vendor folder.
 ```
-govendor fetch github.com/axengine/go-conflux-sdk
+govendor fetch github.com/ukeyiogavin/go-conflux-sdk
 ```
 
 After that you need to create a client instance with node url and an account manager instance.

@@ -3,8 +3,8 @@ package types
 import (
 	"testing"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"github.com/stretchr/testify/assert"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
 )
 
 func TestEpochEquals(t *testing.T) {

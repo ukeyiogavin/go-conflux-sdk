@@ -4,9 +4,9 @@ import (
 	"crypto/sha256"
 	"math/big"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/light/bcs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ukeyiogavin/go-conflux-sdk/light/bcs"
 
 	// "github.com/ethereum/go-ethereum/crypto/bls12381"
 	bls12381 "github.com/kilic/bls12-381"

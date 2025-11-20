@@ -1,9 +1,9 @@
 package types
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
 	"github.com/ethereum/go-ethereum/common"
 	etypes "github.com/ethereum/go-ethereum/core/types"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
 )
 
 type AccessList []AccessTuple

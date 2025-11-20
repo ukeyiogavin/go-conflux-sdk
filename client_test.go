@@ -6,11 +6,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
 	"github.com/ethereum/go-ethereum/common"
 	providers "github.com/openweb3/go-rpc-provider/provider_wrapper"
 	"github.com/stretchr/testify/assert"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
 )
 
 func TestInterfaceImplementation(t *testing.T) {

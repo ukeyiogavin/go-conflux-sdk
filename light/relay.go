@@ -4,16 +4,16 @@ import (
 	"math/big"
 	"time"
 
-	sdk "github.com/Conflux-Chain/go-conflux-sdk"
-	"github.com/Conflux-Chain/go-conflux-sdk/light/contract"
-	"github.com/Conflux-Chain/go-conflux-sdk/types/enums"
-	postypes "github.com/Conflux-Chain/go-conflux-sdk/types/pos"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/openweb3/web3go"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
+	sdk "github.com/ukeyiogavin/go-conflux-sdk"
+	"github.com/ukeyiogavin/go-conflux-sdk/light/contract"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/enums"
+	postypes "github.com/ukeyiogavin/go-conflux-sdk/types/pos"
 )
 
 var RelayInterval = 3 * time.Second

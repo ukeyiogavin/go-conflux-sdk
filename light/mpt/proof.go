@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/light/contract"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ukeyiogavin/go-conflux-sdk/light/contract"
 )
 
 type ProofNode struct {

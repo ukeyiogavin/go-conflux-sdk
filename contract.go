@@ -5,13 +5,13 @@
 package sdk
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	etypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/pkg/errors"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
 )
 
 // Contract represents a smart contract.
@@ -45,7 +45,7 @@ func NewContract(abiJSON []byte, client ClientOperator, address *types.Address) 
 // Method ids are created from the first 4 bytes of the hash of the
 // methods string signature. (signature = baz(uint32,string32))
 //
-// please refer https://github.com/Conflux-Chain/go-conflux-sdk/blob/master/README.md to
+// please refer https://github.com/ukeyiogavin/go-conflux-sdk/blob/master/README.md to
 // get the mappings of solidity types to go types
 func (contract *Contract) GetData(method string, args ...interface{}) ([]byte, error) {
 	packed, err := contract.ABI.Pack(method, args...)
@@ -60,7 +60,7 @@ func (contract *Contract) GetData(method string, args ...interface{}) ([]byte, e
 //
 // the resultPtr should be a pointer of the method output struct type.
 //
-// please refer https://github.com/Conflux-Chain/go-conflux-sdk/blob/master/README.md to
+// please refer https://github.com/ukeyiogavin/go-conflux-sdk/blob/master/README.md to
 // get the mappings of solidity types to go types
 func (contract *Contract) Call(option *types.ContractMethodCallOption, resultPtr interface{}, method string, args ...interface{}) error {
 
@@ -102,7 +102,7 @@ func (contract *Contract) Call(option *types.ContractMethodCallOption, resultPtr
 
 // SendTransaction sends a transaction to the contract method with args and returns its transaction hash
 //
-// please refer https://github.com/Conflux-Chain/go-conflux-sdk/blob/master/README.md to
+// please refer https://github.com/ukeyiogavin/go-conflux-sdk/blob/master/README.md to
 // get the mappings of solidity types to go types
 func (contract *Contract) SendTransaction(option *types.ContractMethodSendOption, method string, args ...interface{}) (types.Hash, error) {
 
@@ -132,7 +132,7 @@ func (contract *Contract) SendTransaction(option *types.ContractMethodSendOption
 
 // DecodeEvent unpacks a retrieved log into the provided output structure.
 //
-// please refer https://github.com/Conflux-Chain/go-conflux-sdk/blob/master/README.md to
+// please refer https://github.com/ukeyiogavin/go-conflux-sdk/blob/master/README.md to
 // get the mappings of solidity types to go types
 func (contract *Contract) DecodeEvent(out interface{}, event string, log types.Log) error {
 

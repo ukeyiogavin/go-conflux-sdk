@@ -1,10 +1,10 @@
 package sdk
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
-	postypes "github.com/Conflux-Chain/go-conflux-sdk/types/pos"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
+	postypes "github.com/ukeyiogavin/go-conflux-sdk/types/pos"
 )
 
 // RpcPosClient used to access pos namespace RPC of Conflux blockchain.

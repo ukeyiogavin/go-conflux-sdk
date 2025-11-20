@@ -5,12 +5,13 @@
 package types
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"math/big"
 
-	address "github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
+
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	address "github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
 )
 
 type Address = address.Address

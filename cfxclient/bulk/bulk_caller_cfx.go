@@ -1,9 +1,9 @@
 package bulk
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	postypes "github.com/Conflux-Chain/go-conflux-sdk/types/pos"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
+	postypes "github.com/ukeyiogavin/go-conflux-sdk/types/pos"
 )
 
 // BulkCfxCaller used for bulk call rpc in one request to improve efficiency

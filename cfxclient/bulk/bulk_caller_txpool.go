@@ -1,8 +1,8 @@
 package bulk
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
 )
 
 // BulkTxpoolCaller used for bulk call rpc in one request to improve efficiency
@@ -63,7 +63,7 @@ func (client *BulkTxpoolCaller) TxWithPoolInfo(hash types.Hash) (*types.TxWithPo
 	return result, err
 }
 
-/// Get transaction pending info by account address
+// / Get transaction pending info by account address
 func (client *BulkTxpoolCaller) AccountPendingInfo(address types.Address) (*types.AccountPendingInfo, *error) {
 	result := new(types.AccountPendingInfo)
 	err := new(error)
@@ -73,7 +73,7 @@ func (client *BulkTxpoolCaller) AccountPendingInfo(address types.Address) (*type
 	return result, err
 }
 
-/// Get transaction pending info by account address
+// / Get transaction pending info by account address
 func (client *BulkTxpoolCaller) AccountPendingTransactions(address types.Address, maybeStartNonce *hexutil.Big, maybeLimit *hexutil.Uint64) (*types.AccountPendingTransactions, *error) {
 	result := new(types.AccountPendingTransactions)
 	err := new(error)

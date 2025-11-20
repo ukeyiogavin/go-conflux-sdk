@@ -3,8 +3,8 @@ package internalcontract
 import (
 	"testing"
 
-	sdk "github.com/Conflux-Chain/go-conflux-sdk"
 	"github.com/stretchr/testify/assert"
+	sdk "github.com/ukeyiogavin/go-conflux-sdk"
 )
 
 func TestNewStaking(t *testing.T) {

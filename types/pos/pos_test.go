@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
 )
 
 func TestUnmarshalTransaction(t *testing.T) {

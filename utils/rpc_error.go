@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/utils/abiutil"
 	"github.com/pkg/errors"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils/abiutil"
 
 	rpcutils "github.com/openweb3/go-rpc-provider/utils"
 )

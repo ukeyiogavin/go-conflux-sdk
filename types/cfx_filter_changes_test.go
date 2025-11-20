@@ -1,11 +1,12 @@
 package types
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"testing"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
+
 	"github.com/stretchr/testify/assert"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
 )
 
 func TestMarshalCfxFilterChanges(t *testing.T) {

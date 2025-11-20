@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
 	"github.com/ethereum/go-ethereum/accounts"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
 )
 
 func TestGetAccountMatchAddress(t *testing.T) {

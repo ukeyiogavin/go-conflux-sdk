@@ -1,8 +1,8 @@
 package sdk
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
 )
 
 // RpcTxpoolClient used to access txpool namespace RPC of Conflux blockchain.
@@ -45,13 +45,13 @@ func (c *RpcTxpoolClient) TxWithPoolInfo(hash types.Hash) (val types.TxWithPoolI
 	return
 }
 
-/// Get transaction pending info by account address
+// / Get transaction pending info by account address
 func (c *RpcTxpoolClient) AccountPendingInfo(address types.Address) (val *types.AccountPendingInfo, err error) {
 	err = c.core.CallRPC(&val, "txpool_accountPendingInfo", address)
 	return
 }
 
-/// Get transaction pending info by account address
+// / Get transaction pending info by account address
 func (c *RpcTxpoolClient) AccountPendingTransactions(address types.Address, maybeStartNonce *hexutil.Big, maybeLimit *hexutil.Uint64) (val types.AccountPendingTransactions, err error) {
 	err = c.core.CallRPC(&val, "txpool_accountPendingTransactions", address, maybeStartNonce, maybeLimit)
 	return

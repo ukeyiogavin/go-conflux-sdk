@@ -8,11 +8,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/pkg/errors"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
 )
 
 // Address represents base32 address accroding to CIP37

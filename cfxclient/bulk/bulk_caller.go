@@ -3,10 +3,10 @@ package bulk
 import (
 	"reflect"
 
-	sdk "github.com/Conflux-Chain/go-conflux-sdk"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	rpc "github.com/openweb3/go-rpc-provider"
 	"github.com/pkg/errors"
+	sdk "github.com/ukeyiogavin/go-conflux-sdk"
 )
 
 type BulkCallerCore struct {

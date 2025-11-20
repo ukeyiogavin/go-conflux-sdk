@@ -5,8 +5,8 @@ import (
 	"sync"
 	"testing"
 
-	sdk "github.com/Conflux-Chain/go-conflux-sdk"
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
+	sdk "github.com/ukeyiogavin/go-conflux-sdk"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
 )
 
 func _TestResubHeads(t *testing.T) {

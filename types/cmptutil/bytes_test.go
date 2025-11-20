@@ -2,8 +2,9 @@ package cmptutil
 
 import (
 	"bytes"
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"testing"
+
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
 
 	"gotest.tools/assert"
 )

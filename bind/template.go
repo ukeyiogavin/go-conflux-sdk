@@ -93,10 +93,10 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/bind"
-	"github.com/Conflux-Chain/go-conflux-sdk/cfxclient/bulk"
+	"github.com/ukeyiogavin/go-conflux-sdk/bind"
+	"github.com/ukeyiogavin/go-conflux-sdk/cfxclient/bulk"
 
-	types "github.com/Conflux-Chain/go-conflux-sdk/types"
+	types "github.com/ukeyiogavin/go-conflux-sdk/types"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	ethBind "github.com/ethereum/go-ethereum/accounts/abi/bind"

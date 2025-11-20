@@ -3,8 +3,8 @@ package bulk
 import (
 	"fmt"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
 )
 
 // BulkDebugCaller used for bulk call rpc in one request to improve efficiency

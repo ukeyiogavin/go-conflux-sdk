@@ -1,5 +1,5 @@
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/axengine/go-conflux-sdk/blob/master/LICENSE)
-[![Documentation](https://img.shields.io/badge/Documentation-GoDoc-green.svg)](https://godoc.org/github.com/axengine/go-conflux-sdk)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/ukeyiogavin/go-conflux-sdk/blob/master/LICENSE)
+[![Documentation](https://img.shields.io/badge/Documentation-GoDoc-green.svg)](https://godoc.org/github.com/ukeyiogavin/go-conflux-sdk)
 [![Build Status](https://travis-ci.org/Conflux-Chain/go-conflux-sdk.svg?branch=master)](https://travis-ci.org/Conflux-Chain/go-conflux-sdk)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/conflux-chain/go-conflux-sdk)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/conflux-chain/go-conflux-sdk)
@@ -10,15 +10,15 @@ The Conflux Golang API allows any Golang client to interact with a local or remo
 
 Please read the [documentation](https://confluxnetwork.gitbook.io/go-conflux-sdk) for more.
 
-And read the API documentation from [here](https://pkg.go.dev/github.com/axengine/go-conflux-sdk).
+And read the API documentation from [here](https://pkg.go.dev/github.com/ukeyiogavin/go-conflux-sdk).
 
 ## Install go-conflux-sdk
 ```
-go get github.com/axengine/go-conflux-sdk
+go get github.com/ukeyiogavin/go-conflux-sdk
 ```
 You can also add the Conflux Golang API into the vendor folder.
 ```
-govendor fetch github.com/axengine/go-conflux-sdk
+govendor fetch github.com/ukeyiogavin/go-conflux-sdk
 ```
 ## Use go-conflux-sdk
 

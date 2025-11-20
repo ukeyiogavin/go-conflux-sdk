@@ -1,9 +1,10 @@
 package cfxaddress
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"reflect"
 	"testing"
+
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
 
 	"github.com/ethereum/go-ethereum/rlp"
 	"gotest.tools/assert"

@@ -5,15 +5,16 @@
 package types
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"io"
 	"math/big"
 	"reflect"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
+
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/pkg/errors"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
 )
 
 // LogFilter represents the filter of event in a smart contract.

@@ -1,6 +1,6 @@
 package sdk
 
-import "github.com/Conflux-Chain/go-conflux-sdk/types"
+import "github.com/ukeyiogavin/go-conflux-sdk/types"
 
 type RpcTraceClient struct {
 	core *Client

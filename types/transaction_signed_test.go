@@ -3,14 +3,15 @@ package types
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"testing"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
+
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/status-im/keycard-go/hexutils"
 	"github.com/stretchr/testify/assert"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
 )
 
 func TestEncodeSignedTransaction(t *testing.T) {

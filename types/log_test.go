@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
 )
 
 var (

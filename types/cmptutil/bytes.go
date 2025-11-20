@@ -1,7 +1,7 @@
 package cmptutil
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )

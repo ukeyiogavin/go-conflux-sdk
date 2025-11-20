@@ -4,10 +4,10 @@ import (
 	"crypto/ecdsa"
 	"errors"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	"github.com/Conflux-Chain/go-conflux-sdk/utils/addressutil"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/openweb3/go-sdk-common/privatekeyhelper"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils/addressutil"
 )
 
 func SignTxByPrivateKey(keyString string, tx types.UnsignedTransaction) (*types.SignedTransaction, error) {

@@ -1,9 +1,9 @@
 package types
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
 	"github.com/ethereum/go-ethereum/common"
 	web3gotypes "github.com/openweb3/web3go/types"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
 )
 
 type EpochTrace struct {

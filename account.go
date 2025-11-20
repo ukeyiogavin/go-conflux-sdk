@@ -12,14 +12,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
-	sdkErrors "github.com/Conflux-Chain/go-conflux-sdk/types/errors"
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/accounts/keystore"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/pkg/errors"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
+	sdkErrors "github.com/ukeyiogavin/go-conflux-sdk/types/errors"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
 )
 
 const (

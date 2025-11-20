@@ -5,11 +5,12 @@
 package types
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"reflect"
 	"testing"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
+
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
 )
 
 func TestEncode(t *testing.T) {

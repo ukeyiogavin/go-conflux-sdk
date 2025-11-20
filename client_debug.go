@@ -3,8 +3,8 @@ package sdk
 import (
 	"fmt"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	sdkErrors "github.com/Conflux-Chain/go-conflux-sdk/types/errors"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
+	sdkErrors "github.com/ukeyiogavin/go-conflux-sdk/types/errors"
 )
 
 // RpcDebugClient used to access debug namespace RPC of Conflux blockchain.

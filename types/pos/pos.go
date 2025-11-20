@@ -2,13 +2,14 @@ package postypes
 
 import (
 	"bytes"
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"sort"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
+
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/pkg/errors"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
 )
 
 type Address = common.Hash

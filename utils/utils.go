@@ -9,8 +9,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/constants"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ukeyiogavin/go-conflux-sdk/constants"
 )
 
 // CalcBlockConfirmationRisk calculates block revert rate

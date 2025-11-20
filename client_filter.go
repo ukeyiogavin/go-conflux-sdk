@@ -1,8 +1,8 @@
 package sdk
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
 	rpc "github.com/openweb3/go-rpc-provider"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
 )
 
 type RpcFilterClient struct {

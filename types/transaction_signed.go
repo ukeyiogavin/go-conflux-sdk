@@ -7,11 +7,11 @@ package types
 import (
 	"math/big"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/utils/addressutil"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/pkg/errors"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils/addressutil"
 )
 
 // SignedTransaction represents a transaction with signature,

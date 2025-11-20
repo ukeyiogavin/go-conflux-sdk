@@ -5,13 +5,13 @@ import (
 	"math/big"
 	"testing"
 
-	client "github.com/Conflux-Chain/go-conflux-sdk"
-	sdk "github.com/Conflux-Chain/go-conflux-sdk"
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
-	"github.com/Conflux-Chain/go-conflux-sdk/types/cfxaddress"
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"github.com/status-im/keycard-go/hexutils"
 	"github.com/stretchr/testify/assert"
+	client "github.com/ukeyiogavin/go-conflux-sdk"
+	sdk "github.com/ukeyiogavin/go-conflux-sdk"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
+	"github.com/ukeyiogavin/go-conflux-sdk/types/cfxaddress"
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
 )
 
 func _initClinetForTest() *sdk.Client {

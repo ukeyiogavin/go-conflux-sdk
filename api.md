@@ -1,7 +1,7 @@
 ---
 id: go_sdk
 title: Golang SDK
-custom_edit_url: https://github.com/axengine/go-conflux-sdk/edit/master/api.md
+custom_edit_url: https://github.com/ukeyiogavin/go-conflux-sdk/edit/master/api.md
 keywords:
   - conflux
   - go
@@ -17,11 +17,11 @@ The go-conflux-sdk module is a collection of packages which contain specific fun
 ## Installation
 You can get Conflux Golang API directly or use go module as below
 ```
-go get github.com/axengine/go-conflux-sdk
+go get github.com/ukeyiogavin/go-conflux-sdk
 ```
 You can also add the Conflux Golang API into vendor folder.
 ```
-govendor fetch github.com/axengine/go-conflux-sdk
+govendor fetch github.com/ukeyiogavin/go-conflux-sdk
 ```
 
 After that you need to create a client instance with node url and an account manager instance.
@@ -940,7 +940,7 @@ Call calls to the contract method with args and fills the excuted result to the
 the resultPtr should be a pointer of the method output struct type.
 
 please refer
-https://github.com/axengine/go-conflux-sdk/blob/master/README.md to get the
+https://github.com/ukeyiogavin/go-conflux-sdk/blob/master/README.md to get the
 mappings of solidity types to go types
 
 #### func (*Contract) DecodeEvent
@@ -951,7 +951,7 @@ func (contract *Contract) DecodeEvent(out interface{}, event string, log types.L
 DecodeEvent unpacks a retrieved log into the provided output structure.
 
 please refer
-https://github.com/axengine/go-conflux-sdk/blob/master/README.md to get the
+https://github.com/ukeyiogavin/go-conflux-sdk/blob/master/README.md to get the
 mappings of solidity types to go types
 
 #### func (*Contract) GetData
@@ -966,7 +966,7 @@ of 4 bytes and arguments are all 32 bytes. Method ids are created from the first
 baz(uint32,string32))
 
 please refer
-https://github.com/axengine/go-conflux-sdk/blob/master/README.md to get the
+https://github.com/ukeyiogavin/go-conflux-sdk/blob/master/README.md to get the
 mappings of solidity types to go types
 
 #### func (*Contract) SendTransaction
@@ -978,7 +978,7 @@ SendTransaction sends a transaction to the contract method with args and returns
 its transaction hash
 
 please refer
-https://github.com/axengine/go-conflux-sdk/blob/master/README.md to get the
+https://github.com/ukeyiogavin/go-conflux-sdk/blob/master/README.md to get the
 mappings of solidity types to go types
 
 ### type ContractDeployResult

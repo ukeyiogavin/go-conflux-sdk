@@ -3,9 +3,9 @@ package primitives
 import (
 	"math/big"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
 )
 
 const cip112Epoch = uint64(79050000)

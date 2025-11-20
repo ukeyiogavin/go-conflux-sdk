@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
 )
 
 var ErrTimeout error = errors.New("timeout")

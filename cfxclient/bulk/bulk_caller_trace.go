@@ -1,7 +1,7 @@
 package bulk
 
 import (
-	"github.com/Conflux-Chain/go-conflux-sdk/types"
+	"github.com/ukeyiogavin/go-conflux-sdk/types"
 )
 
 // BulkTraceCaller used for bulk call rpc in one request to improve efficiency

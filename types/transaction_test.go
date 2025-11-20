@@ -2,9 +2,10 @@ package types
 
 import (
 	"encoding/hex"
-	"github.com/Conflux-Chain/go-conflux-sdk/utils"
 	"reflect"
 	"testing"
+
+	"github.com/ukeyiogavin/go-conflux-sdk/utils"
 
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/stretchr/testify/assert"

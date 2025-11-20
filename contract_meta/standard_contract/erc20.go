@@ -7,16 +7,16 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/Conflux-Chain/go-conflux-sdk/bind"
-	"github.com/Conflux-Chain/go-conflux-sdk/cfxclient/bulk"
+	"github.com/ukeyiogavin/go-conflux-sdk/bind"
+	"github.com/ukeyiogavin/go-conflux-sdk/cfxclient/bulk"
 
-	types "github.com/Conflux-Chain/go-conflux-sdk/types"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	ethBind "github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/event"
+	types "github.com/ukeyiogavin/go-conflux-sdk/types"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
