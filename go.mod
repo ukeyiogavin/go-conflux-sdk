@@ -1,6 +1,6 @@
 module github.com/ukeyiogavin/go-conflux-sdk
 
-go 1.24.10
+go 1.23.10
 
 require (
 	github.com/mcuadros/go-defaults v1.2.0
